@@ -1,6 +1,5 @@
 let outputElement = document.getElementById('outputElement');
 let outputParagraph = document.getElementById('outputParagraph');
-let contentElement = document.getElementById('contentGrid');
 
 let jsonDatabase = [{
     "title": "The Lobster",
