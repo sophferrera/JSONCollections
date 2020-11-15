@@ -8,7 +8,7 @@ let jsonDatabase = [{
     "title": "Easy A",
     "picture": "https://img.timeinc.net/time/daily/2010/1009/360_easy_a_0917.jpg",
     "description": "When a lie about Olive's reputation transforms her from anonymous to infamous at her high school, she decides to embrace a provocative new persona.",
-    "link": "https://www.netflix.com/search?q=easy%20a&jbv=70123920"
+    // "link": "https://www.netflix.com/search?q=easy%20a&jbv=70123920"
   },
 
   {
@@ -16,7 +16,7 @@ let jsonDatabase = [{
     "title": "Chefs Table",
     "picture": "https://miro.medium.com/max/1194/1*pOA5jG_TttmwmGG5gZ9E2A.png",
     "description": "Some of the most renowned chefs in the world share their deeply personal stories, inspirations, and unique styles. Each chef's discipline and culinary talent is explored while he or she prepares an awe-inspiring creation.",
-    "link": "https://www.netflix.com/search?q=chefs%20table&jbv=80007945"
+    // "link": "https://www.netflix.com/search?q=chefs%20table&jbv=80007945"
   },
 
   {
@@ -24,22 +24,20 @@ let jsonDatabase = [{
     "title": "Eternal Sunshine of the Spotless Mind ",
     "picture": "https://blackgirlnerds.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-19-at-1.23.33-PM.png",
     "description": "What's messier than a break up? Erasing memories of your ex followed by the surreal discovery of what you've lost.",
-    "link": "https://www.netflix.com/search?q=eternal%20sun&jbv=60034545"
+    // "link": "https://www.netflix.com/search?q=eternal%20sun&jbv=60034545"
   },
 
 ]
 
+for (var i = 0; i < jsonDatabase.length; i++) {
+  createElement(jsonDatabase[i]);
+}
+
 function createElement(incomingJSON) {
-  for (let i = 0; i < incomingJSON.length; i++) {
 
     let newContentElement = document.createElement("DIV");
     newContentElement.style.backgroundcolor = "#eee";
     newContentElement.classList.add('contentItem');
-    newContentElement.classList.add('linkButton');
-    newLink.addEventListener("click", function() {
-      window.location = incomingJSON[i]['link'];
-    });
-    newContentElement.appendChild(newLink);
 
     let newContentImg = document.createElement("IMG");
     newContentImg.classList.add("image");
@@ -55,10 +53,4 @@ function createElement(incomingJSON) {
     newContentDesc.classList.add('contentDesc');
     newContentDesc.innerText = incomingJSON[i]['description'];
     newContentElement.appendChild(newContentDesc);
-
-  }
-
-  createElement(jsonDatabase);
-
-
 }
