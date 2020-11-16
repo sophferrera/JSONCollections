@@ -23,7 +23,7 @@ let jsonDatabase = [{
     "genre": "forgetting",
     "title": "Derry Girls",
     "picture": "https://www.comedy.co.uk/images/library/comedies/900x450/d/derry_girls_series2_iconic.jpg",
-    "description": "This candid, family-centered comedy and coming-of-age story follows 16-year-old Erin and her friends as they grow up in a world of armed police in armored Land Rovers and British Army check points in the 1990s of Northern Ireland. Written by `Being Human' screenwriter Lisa McGee, the story is set during the time of The Troubles.",
+    "description": "This candid, family-centered comedy and coming-of-age story follows 16-year-old Erin and her friends as they grow up in a world of armed police in armored Land Rovers and British Army check points in the 1990s of Northern Ireland.",
     "link": "https://www.netflix.com/search?q=derry&jbv=80238565"
   },
 
@@ -61,7 +61,7 @@ let jsonDatabase = [{
 
   {
     "genre": "forgetting",
-    "title": "The Great British Bake Off",
+    "title": "The Great British Baking Show",
     "picture": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-07-27-at-12-40-30-pm-1595868040.png",
     "description": "Twelve amateur bakers compete against each other to win the title of Greatest British Baker in the successful series. Their skills on all the baking essentials like cakes, breads, pastries and desserts are tested in each round, and the difficulty increases as the competition unfolds. The judges are set to taste all the goods created carefully by the contestants, and the audience is able to follow all the trials and tribulations with a wholesome twist.",
     "link": "https://www.netflix.com/search?q=great&jbv=80063224"
@@ -79,8 +79,24 @@ let jsonDatabase = [{
     "genre": "forgetting",
     "title": "Orange is the New Black",
     "picture": "https://images.popbuzz.com/images/64775?crop=16_9&width=660&relax=1&signature=XsD8QqNznPfbLK2vl7BNuaDAps8=",
-    "description": "Piper Chapman is a public relations executive with a career and a fiancé when her past suddenly catches up to her. In her mid-30s she is sentenced to spend time in a minimum-security women's prison in Connecticut for her association with a drug runner 10 years earlier. This Netflix original series is based on the book of the same title. Forced to trade power suits for prison orange, Chapman makes her way through the corrections system and adjusts to life behind bars, making friends with the many eccentric, unusual and unexpected people she meets.",
+    "description": "In Piper Chapman's mid-30s she is sentenced to spend time in a minimum-security women's prison in Connecticut for her association with a drug runner 10 years earlier. Forced to trade power suits for prison orange, Chapman makes her way through the corrections system and adjusts to life behind bars, making friends with the many eccentric, unusual and unexpected people she meets.",
     "link": "https://www.netflix.com/search?q=ornage&jbv=70242311"
+  },
+
+  {
+    "genre": "forgetting",
+    "title": "Sex Education",
+    "picture": "https://deadline.com/wp-content/uploads/2020/06/1283230-e1592492073640.jpg",
+    "description": "Socially awkward high school student Otis may not have much experience in the lovemaking department, but he gets good guidance on the topic in his personal sex ed course -- living with mom Jean, who is a sex therapist. When his classmates learn about his home life, Otis decides to use his insider knowledge to improve his status at school, so he teams with whip-smart bad girl Maeve to set up an underground sex therapy clinic to deal with their classmates' problems.",
+    "link": "https://www.netflix.com/browse?jbv=80197526"
+  },
+
+  {
+    "genre": "forgetting",
+    "title": "Ladybird",
+    "picture": "https://cdn.onebauer.media/one/empire-images/reviews_films/5a8161fda0501bf41e4d2171/lady-bird.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
+    "description": "Marion McPherson, a nurse, works tirelessly to keep her family afloat after her husband loses his job. She also maintains a turbulent bond with a teenage daughter who is just like her: loving, strong-willed and deeply opinionated.",
+    "link": "https://www.netflix.com/search?q=danish&jbv=80205227"
   },
 
   {
@@ -89,6 +105,14 @@ let jsonDatabase = [{
     "picture": "https://miro.medium.com/max/1194/1*pOA5jG_TttmwmGG5gZ9E2A.png",
     "description": "Some of the most renowned chefs in the world share their deeply personal stories, inspirations, and unique styles. Each chef's discipline and culinary talent is explored while he or she prepares an awe-inspiring creation.",
     "link": "https://www.netflix.com/search?q=chefs%20table&jbv=80007945"
+  },
+
+  {
+    "genre": "learning",
+    "title": "Athlete A",
+    "picture": "https://kandivenkoba.files.wordpress.com/2020/07/aaaabrm36ubsyarcz0aa2qigtgbkwvq4vaopwbslrapxj6uynk6yzml5xctmzcjvq-hdcnoy8sq79a1jnhuhmthdnhwmmfawr7hrc4bw8dh8mz1cp-yopab0qxo7avpevq.jpg",
+    "description": "Reporters from The Indianapolis Star expose Dr. Larry Nassar's sexual abuse of young gymnasts.",
+    "link": "https://www.netflix.com/search?q=gymnast&jbv=81034185"
   },
 
   {
@@ -107,6 +131,13 @@ let jsonDatabase = [{
     "link": "https://www.netflix.com/search?q=ted%20bundy&jbv=80226612"
   },
 
+  {
+    "genre": "learning",
+    "title": "Fyre: The Greatest Party That Never Happened",
+    "picture": "https://thestreamable.com/media/pages/news/over-20-million-households-watched-netflixs-fyre-festival-documentary/add07e148b-1604430042/50299877_10156775075870761_1164800830096801792_o.jpg",
+    "description": "The history of the Fyre Music Festival, from its creation through its unraveling.",
+    "link": "https://www.netflix.com/search?q=documentaries&jbv=81035279"
+  },
 
   {
     "genre": "sad",
@@ -118,10 +149,26 @@ let jsonDatabase = [{
 
   {
     "genre": "sad",
-    "title": "I Lost My Body ",
+    "title": "I Lost My Body",
     "picture": "https://static.rogerebert.com/uploads/review/primary_image/reviews/i-lost-my-body-movie-review-2019/lost-my-body-movie-review-2019.jpg",
     "description": "A cut-off hand escapes from a dissection lab with one crucial goal: to get back to its body. As it scrambles through the pitfalls of Paris, it remembers its life with the young man it was once attached to, until they met Gabrielle.",
     "link": "https://www.netflix.com/search?q=i%20lost&jbv=81120982"
+  },
+
+  {
+    "genre": "learning",
+    "title": "The Theory of Everything",
+    "picture": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__18273-the-theory-of-everything--hi_res-1790e3d7.jpg/film__18273-the-theory-of-everything--hi_res-1790e3d7.jpg",
+    "description": "In the 1960s, Cambridge University student and future physicist Stephen Hawking falls in love with fellow collegian Jane Wilde. At 21, Hawking learns that he has motor neuron disease. He and Jane defy terrible odds and break new ground in the fields of medicine and science, achieving more than either could hope to imagine.",
+    "link": ""
+  },
+
+  {
+    "genre": "learning",
+    "title": "The Danish Girl",
+    "picture": "https://static01.nyt.com/images/2015/11/27/arts/27DANISHGIRL/27DANISHGIRL-superJumbo.jpg",
+    "description": "With support from his loving wife Gerda, artist Einar Wegener prepares to undergo one of the first sex-change operations.",
+    "link": "https://www.netflix.com/search?q=danish&jbv=80058477"
   },
 
   {
@@ -144,8 +191,16 @@ let jsonDatabase = [{
     "genre": "sad",
     "title": "Dallas Buyers Club",
     "picture": "https://i.ytimg.com/vi/fvMPU0WaPcc/maxresdefault.jpg",
-    "description": "In mid-1980s Texas, electrician Ron Woodroof is stunned to learn that he has AIDS. Though told that he has just 30 days left to live, Woodroof refuses to give in to despair. He seeks out alternative therapies and smuggles unapproved drugs into the U.S. from wherever he can find them. Woodroof joins forces with a fellow AIDS patient and begins selling the treatments to the growing number of people who can't wait for the medical establishment to save them.",
+    "description": "In mid-1980s Texas, electrician Ron Woodroof is stunned to learn that he has AIDS. He seeks out alternative therapies and smuggles unapproved drugs into the U.S. from wherever he can find them. Woodroof joins forces with a fellow AIDS patient and begins selling the treatments to the growing number of people who can't wait for the medical establishment to save them.",
     "link": "https://www.netflix.com/search?q=dallas&jbv=70275751"
+  },
+
+  {
+    "genre": "sad",
+    "title": "About Time",
+    "picture": "https://i.ytimg.com/vi/7OIFdWk83no/maxresdefault.jpg",
+    "description": "When Tim Lake is 21, his father tells him a secret: The men in their family can travel through time. As his unusual life progresses, Tim finds that his special ability can't shield him and those he loves from the problems of ordinary life.",
+    "link": "https://www.netflix.com/search?q=about%20time&jbv=70261674"
   },
 
 
@@ -175,11 +230,13 @@ let jsonDatabase = [{
 
   {
     "genre": "learning",
-    "title": " Black Mirror",
+    "title": "Black Mirror",
     "picture": "https://miro.medium.com/max/2400/1*-h1F-dn6_B2yWKsT1vPsLg.jpeg",
     "description": "A series of stand-alone dramas -- sharp, suspenseful, satirical tales that explore techno-paranoia -- Black Mirror is a contemporary reworking of The Twilight Zone with stories that tap into the collective unease about the modern world, particularly regarding both intended and unintended consequences of new technologies and the effect they have on society and individuals.",
     "link": "https://www.netflix.com/search?q=black&jbv=70264888"
   }
+
+
 
 ]
 
@@ -208,6 +265,7 @@ function createElement(incomingJSON) {
   // newContentTitle.innerText = incomingJSON[i]['title'];
   newContentTitle.innerText = incomingJSON['title'];
   newContentElement.appendChild(newContentTitle);
+  newContentElement.appendChild(newContentLink);
 
   let newContentDesc = document.createElement("P");
   newContentDesc.classList.add('contentDesc');
